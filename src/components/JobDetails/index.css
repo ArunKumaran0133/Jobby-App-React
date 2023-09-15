@@ -1,0 +1,125 @@
+.job-detail-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.visit-company-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #6366f1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.share-icon {
+  margin-left: 5px;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+
+.skill-image {
+  width: 70px;
+  height: 70px;
+}
+
+.skill-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.skill-list-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-item-container {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.life-at-company-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+
+.life-at-company-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  width: 100%;
+}
+
+.life-at-company-image {
+  width: 100%;
+  height: 300px;
+}
+
+.life-at-company-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.similar-jobs-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin-top: 50px;
+}
+
+.similar-jobs-list-container {
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.loader {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-description {
+    width: 60%;
+  }
+  .life-at-company-image {
+    width: 40%;
+  }
+  .life-at-company-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

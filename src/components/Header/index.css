@@ -1,0 +1,81 @@
+.nav-bg-container {
+  background-color: #2c364c;
+  padding: 20px;
+}
+
+.header-logo {
+  height: 35px;
+  width: 80px;
+}
+.small-logos {
+  height: 30px;
+  width: 30px;
+  color: #f8fafc;
+  margin-left: 10px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-sub-container-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-large {
+  height: 40px;
+  width: 120px;
+}
+
+.nav-logout-button-large {
+  width: 100px;
+  background-color: #6366f1;
+  height: 32px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+.nav-list-home-large {
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.home-logout-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav-sub-container-large {
+  display: none;
+}
+
+.small-logout-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-sub-container-small {
+    display: none;
+  }
+  .nav-sub-container-large {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

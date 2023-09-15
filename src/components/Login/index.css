@@ -1,0 +1,90 @@
+.login-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-cart-container {
+  background-color: #272727;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.jobby-image-logo {
+  height: 30px;
+  width: 70px;
+  margin-bottom: 0px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #f8fafc;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: 1px solid #2c364c;
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  color: #f8fafc;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  width: 250px;
+  background-color: #6366f1;
+  height: 32px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: white;
+  margin-top: 30px;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobby-image-logo {
+    height: 50px;
+    width: 120px;
+  }
+  .label-text {
+    font-size: 15px;
+  }
+  .login-cart-container {
+    width: 400px;
+    height: 400px;
+  }
+
+  .input {
+    width: 300px;
+  }
+  .login-button {
+    width: 300px;
+  }
+}
